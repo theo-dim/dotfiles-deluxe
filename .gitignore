@@ -8,12 +8,3 @@ ranger/.config/ranger/colorschemes/__pycache__/
 ranger/.config/ranger/history
 ranger/.config/ranger/tagged
 vim/.vim/bundle/
-vim/.vim/plugged/ale
-vim/.vim/plugged/colorizer
-vim/.vim/plugged/nord-vim-mod
-vim/.vim/plugged/unicode.vim
-vim/.vim/plugged/vim-gitgutter
-vim/.vim/plugged/vim-matchup
-vim/.vim/plugged/vim-plugin-AnsiEsc
-vim/.vim/plugged/vim-polyglot
-vim/.vim/plugged/vim-tmux-navigator
