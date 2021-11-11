@@ -24,6 +24,7 @@ alias e="$EDITOR"
 alias se="sudo $EDITOR"
 alias g="git"
 alias u="node ~/src/unicoder/unicoder.js "
+alias upapt="sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove && sudo apt clean"
 #
 #lazy
 alias "cd.."="cd ../"
@@ -31,7 +32,7 @@ alias rmrf="rm -rf"
 alias psef="ps -ef"
 #
 #git
-alias ga="git add"
+alias ga="git add ."
 alias gc="git commit -m"
 alias gs="git status"
 alias gd="git diff"

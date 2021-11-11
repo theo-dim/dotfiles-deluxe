@@ -27,6 +27,9 @@ export PATH=/usr/local/texlive/2021/bin/x86_64-linux:$PATH
 ## Export Conda Browser PATH:
 export BROWSER="/mnt/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
 #
+## LaTeX Executables:
+export PATH=$HOME/bin:$PATH
+#
 #█▓▒░ preferred text editor
 export EDITOR='vim'
 export VISUAL='code'
