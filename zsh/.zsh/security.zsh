@@ -7,12 +7,11 @@
 #  ██████ ██████ ░██  ░██ 
 # ░░░░░░ ░░░░░░  ░░   ░░  
 #
-#  ▓▓▓▓▓▓▓▓▓▓
-# ░▓ author ▓ Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com
-# ░▓ info   ▓ https://linktr.ee/theo_dmtr
-# ░▓ repo   ▓ https://github.com/theo-dim/dotfiles-deluxe
-# ░▓▓▓▓▓▓▓▓▓▓
-# ░░░░░░░░░░
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+# ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
+# ░▓   info: https://linktr.ee/theo_dmtr                                ▓
+# ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
 #█▓▒░ av aliases
 alias checkrootkits="sudo rkhunter --update; sudo rkhunter --propupd; sudo rkhunter --check"

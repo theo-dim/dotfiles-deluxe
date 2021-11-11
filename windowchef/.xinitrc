@@ -9,12 +9,11 @@
 #  ██ ░░██░██ ███  ░██░██  ░░██ ░███   ░░█████
 # ░░   ░░ ░░ ░░░   ░░ ░░    ░░  ░░░     ░░░░░
 #
-#  ▓▓▓▓▓▓▓▓▓▓
-# ░▓ author ▓ Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com
-# ░▓ info   ▓ https://linktr.ee/theo_dmtr
-# ░▓ repo   ▓ https://github.com/theo-dim/dotfiles-deluxe
-# ░▓▓▓▓▓▓▓▓▓▓
-# ░░░░░░░░░░
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+# ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
+# ░▓   info: https://linktr.ee/theo_dmtr                                ▓
+# ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
 # merge custom x resources
 xrdb -merge ~/.Xdefaults &
