@@ -18,6 +18,40 @@ aurman -S keychain lolcat figlet zsh vim nvim git
 OR
 sudo apt update -y && sudo apt upgrade -y && sudo apt install keychain lolcat figlet zsh vim nvim git
 ```
+# tl;dr
+navigate to your home directory
+
+`cd ~`
+
+clone the repo:
+
+`git clone http://git.xero.nu/dotfiles.git`
+
+enter the dotfiles directory
+
+`cd dotfiles`
+
+install the zsh settings
+
+`stow zsh`
+
+install zsh settings for the root user
+
+`sudo stow zsh -t /root`
+
+install awesomewm theme
+
+`stow awesome`
+
+uninstall awesome theme
+
+`stow -D awesome`
+
+install herbstluftwm
+
+`stow herbstluftwm`
+
+etc, etc, etc...
 
 ## Fonts:
 Unzip the fonts tarball in ```~/.local/share/fonts/``` (useful for figlet)
