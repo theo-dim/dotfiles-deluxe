@@ -33,13 +33,14 @@
  - [Other](#other)
 
 # Dotfiles Deluxe
-Full suite of dotfiles and fonts for Archlinux (easily customizable for other distributions as well). 
+Full suite of dotfiles and fonts for your Linux distributions!
 ## Stow Installation
 stow is available for all linux and most other unix like distributions via your package manager.
 
 - `sudo pacman -S stow`
 - `sudo apt-get install stow`
 - `brew install stow`
+
 ## Dependencies
 The following packages are needed in order to properly run the dotfiles:
 - keychain
@@ -57,33 +58,27 @@ aurman -S keychain lolcat figlet zsh vim nvim git
 OR
 sudo apt update -y && sudo apt upgrade -y && sudo apt install keychain lolcat figlet zsh vim nvim git
 ```
+
 ## Integrating the Dotfiles
 1. Navigate to your home directory:
-
 `cd ~`
 
 2. Clone the repo:
-
 `git clone https://github.com/theo-dim/dotfiles-deluxe.git`
 
 3. Navigate in the dotfiles directory:
-
 `cd dotfiles-deluxe`
 
 4. Install the zsh configuration files:
-
 `stow zsh`
 
 5. Install the zsh configuration files for root:
-
 `sudo stow zsh -t /root`
 
 6. Install a theme:
-
 `stow theme_name`
 
 7. Uninstall a symlink farm:
-
 `stow -D theme_name`
 
 # Fonts
