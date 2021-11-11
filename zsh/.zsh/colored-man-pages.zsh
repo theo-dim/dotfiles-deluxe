@@ -7,12 +7,11 @@
 #  ██████ ██████ ░██  ░██ 
 # ░░░░░░ ░░░░░░  ░░   ░░  
 #
-#  ▓▓▓▓▓▓▓▓▓▓
-# ░▓ author ▓ Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com
-# ░▓ info   ▓ https://linktr.ee/theo_dmtr
-# ░▓ repo   ▓ https://github.com/theo-dim/dotfiles-deluxe
-# ░▓▓▓▓▓▓▓▓▓▓
-# ░░░░░░░░░░
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+# ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
+# ░▓   info: https://linktr.ee/theo_dmtr                                ▓
+# ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
 #█▓▒░ source: https://github.com/imkira/dotfiles/blob/master/.zsh/colored-man-pages.zsh
 export LESS_TERMCAP_mb=$'\E[01;31m'
