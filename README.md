@@ -66,23 +66,23 @@ sudo apt update -y && sudo apt upgrade -y && sudo apt install keychain lolcat fi
 
 `git clone https://github.com/theo-dim/dotfiles-deluxe.git`
 
-3. enter the dotfiles directory
+3. Navigate in the dotfiles directory
 
 `cd dotfiles-deluxe`
 
-4. install the zsh settings
+4. Install the zsh configuration files
 
 `stow zsh`
 
-5. install zsh settings for the root user
+5. Install the zsh configuration files for root
 
 `sudo stow zsh -t /root`
 
-6. install some theme
+6. Install a theme
 
 `stow theme_name`
 
-7. uninstall awesome theme
+7. Uninstall a symlink farm
 
 `stow -D theme_name`
 
@@ -90,6 +90,7 @@ sudo apt update -y && sudo apt upgrade -y && sudo apt install keychain lolcat fi
 The font files are stored in ```~/dotfiles-deluxe/figlet/```
 
 # Favorites:
+These are some of my favorite packages that accompany my Arch Linux distribution (WSL2):
 - [plug](https://github.com/junegunn/vim-plug) - to manage other plugins
 - [vim completes me](https://github.com/ajh17/VimCompletesMe) - super lightweight completion system
 - [colorizer](https://github.com/lilydjwg/colorizer) - display color codes as their colors inline
