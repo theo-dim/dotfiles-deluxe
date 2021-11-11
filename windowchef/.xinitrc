@@ -15,23 +15,23 @@
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
-# merge custom x resources
+# █▓▒░ merge custom x resources
 xrdb -merge ~/.Xdefaults &
 
-# fix + autohide cursor
+# █▓▒░ fix + autohide cursor
 xsetroot -cursor_name left_ptr &
 unclutter &
 
-# gestures
+# █▓▒░ gestures
 libinput-gestures-setup start &
 
-# hotkeys
+# █▓▒░ hotkeys
 sxhkd &
 
-# notifcations
+# █▓▒░ notifcations
 dunst &
 
-# wm
+# █▓▒░ wm
 ~/bin/display &
 ~/bin/clock &
 ~/bin/tray &

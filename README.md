@@ -21,6 +21,7 @@
 ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
 ░▓   info: https://linktr.ee/theo_dmtr                                ▓
 ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+░▓    pgp: 0xFFCFCBF6AC8BB373                                         ▓
 ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ```
 
@@ -89,3 +90,6 @@ These are some of my favorite packages that accompany my Arch Linux distribution
 - [git gutter](https://github.com/airblade/vim-gitgutter) - git diff in the gutter
 - [fugitive](https://github.com/tpope/vim-fugitive) - fast git integration
 - [plug](https://github.com/junegunn/vim-plug) - to manage other plugins
+- [figlet](http://www.figlet.org/) FIGlet is a program for making large letters out of ordinary text
+- [toilet](https://helloacm.com/toilet/) TOIlet prints text using large characters made of smaller characters
+- [task](https://archlinux.org/packages/community/x86_64/task/) A command-line todo list manager
