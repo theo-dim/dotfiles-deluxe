@@ -6,11 +6,11 @@ The following packages are neeeded in order to properly run the dotfiles. They c
 ```bash
 aurman -S keychain lolcat figlet zsh git
 ```
--keychain \
--lolcat \
--figlet \
--zsh + oh-my-zsh (includes the git, zsh-autosuggestions and zsh-syntax-highlighting plugins). For additional instructions on how to install oh-my-zsh, visit: https://ohmyz.sh/ \
-- (optional): The Powerlevel10k theme for oh-my-zsh provides useful autocompletion and other features. For more information and installation instructions, visit https://github.com/romkatv/powerlevel10k#oh-my-zsh \
+- keychain
+- lolcat
+- figlet
+- zsh + oh-my-zsh (includes the git, zsh-autosuggestions and zsh-syntax-highlighting plugins). For additional instructions on how to install oh-my-zsh, visit: https://ohmyz.sh/
+- (optional): The Powerlevel10k theme for oh-my-zsh provides useful autocompletion and other features. For more information and installation instructions, visit https://github.com/romkatv/powerlevel10k#oh-my-zsh
 - vim
 - nvim
--git
+- git
