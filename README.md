@@ -4,7 +4,9 @@ Full suite of dotfiles and fonts for Archlinux and Pengwin (easily customizable 
 ## Dependencies:
 The following packages are neeeded in order to properly run the dotfiles. They can be installed using pacman/aurman (Arch) or apt (Pengwin):
 ```bash
-aurman -S keychain lolcat figlet zsh git
+aurman -S keychain lolcat figlet zsh vim nvim git
+OR
+sudo apt update -y && sudo apt upgrade -y && sudo apt install keychain lolcat figlet zsh vim nvim git
 ```
 - keychain
 - lolcat
