@@ -86,8 +86,6 @@ The font files are stored in ```~/dotfiles-deluxe/figlet/```
 
 # Favorites
 These are some of my favorite packages that accompany my Arch Linux distribution (WSL2):
-- [colorizer](https://github.com/lilydjwg/colorizer) - display color codes as their colors inline
 - [git gutter](https://github.com/airblade/vim-gitgutter) - git diff in the gutter
 - [fugitive](https://github.com/tpope/vim-fugitive) - fast git integration
-- [GV](https://github.com/junegunn/gv.vim) - git commit browser (great for pr review)
 - [plug](https://github.com/junegunn/vim-plug) - to manage other plugins
