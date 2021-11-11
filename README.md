@@ -18,3 +18,6 @@ aurman -S keychain lolcat figlet zsh vim nvim git
 OR
 sudo apt update -y && sudo apt upgrade -y && sudo apt install keychain lolcat figlet zsh vim nvim git
 ```
+
+## Fonts:
+Unzip the fonts tarball in ```~/.local/share/fonts/``` (useful for figlet)
