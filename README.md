@@ -40,7 +40,7 @@ stow is available for all linux and most other unix like distributions via your 
 - `sudo pacman -S stow`
 - `sudo apt-get install stow`
 - `brew install stow`
-# Dependencies:
+# Dependencies
 The following packages are needed in order to properly run the dotfiles:
 - keychain
 - lolcat
@@ -58,38 +58,38 @@ OR
 sudo apt update -y && sudo apt upgrade -y && sudo apt install keychain lolcat figlet zsh vim nvim git
 ```
 # Integrating the Dotfiles
-1. Navigate to your home directory
+1. Navigate to your home directory:
 
 `cd ~`
 
-2. clone the repo:
+2. Clone the repo:
 
 `git clone https://github.com/theo-dim/dotfiles-deluxe.git`
 
-3. Navigate in the dotfiles directory
+3. Navigate in the dotfiles directory:
 
 `cd dotfiles-deluxe`
 
-4. Install the zsh configuration files
+4. Install the zsh configuration files:
 
 `stow zsh`
 
-5. Install the zsh configuration files for root
+5. Install the zsh configuration files for root:
 
 `sudo stow zsh -t /root`
 
-6. Install a theme
+6. Install a theme:
 
 `stow theme_name`
 
-7. Uninstall a symlink farm
+7. Uninstall a symlink farm:
 
 `stow -D theme_name`
 
-# Fonts:
+# Fonts
 The font files are stored in ```~/dotfiles-deluxe/figlet/```
 
-# Favorites:
+# Favorites
 These are some of my favorite packages that accompany my Arch Linux distribution (WSL2):
 - [plug](https://github.com/junegunn/vim-plug) - to manage other plugins
 - [vim completes me](https://github.com/ajh17/VimCompletesMe) - super lightweight completion system
