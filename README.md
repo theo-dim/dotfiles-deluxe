@@ -6,4 +6,4 @@ Full suite of dotfiles and fonts for Archlinux and Pengwin (easily customizable 
 -lolcat \
 -figlet \
 -zsh + oh-my-zsh (includes the git, zsh-autosuggestions and zsh-syntax-highlighting plugins) \
--git \
+-git
