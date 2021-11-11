@@ -24,12 +24,12 @@ alias e="$EDITOR"
 alias se="sudo $EDITOR"
 alias g="git"
 alias u="node ~/src/unicoder/unicoder.js "
-
+#
 #lazy
 alias "cd.."="cd ../"
 alias rmrf="rm -rf"
 alias psef="ps -ef"
-
+#
 #git
 alias ga="git add"
 alias gc="git commit -m"
@@ -45,7 +45,7 @@ alias ggg="git graphgpg"
 alias gco="git checkout"
 alias gcs="git commit -S -m"
 alias gpr="hub pull-request"
-
+#
 #overrides
 alias mkdir="mkdir -p"
 alias cp="cp -r"
@@ -57,12 +57,12 @@ alias pacman="sudo pacman"
 alias systemctl="sudo systemctl"
 alias ag="ag --color --color-line-number '0;35' --color-match '46;30' --color-path '4;36'"
 alias tree='tree -CAFa -I "CVS|*.*.package|.svn|.git|.hg|node_modules|bower_components" --dirsfirst'
-
+#
 #curl
 alias csilx="curl -sILX GET"
 alias curld="curl -A \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36\""
 alias curlm="curl -A \"Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/28.0.1500.12 Mobile/10B329 Safari/8536.25\""
-
+#
 # ascii
 alias toiletlist='for i in ${TOILET_FONT_PATH:=/usr/share/figlet}/*.{t,f}lf; do j=${i##*/}; echo ""; echo "╓───── "$j; echo "╙────────────────────────────────────── ─ ─ "; echo ""; toilet -d "${i%/*}" -f "$j" "${j%.*}"; done'
 alias tdlist='for i in ${TD_FONT_PATH:=/usr/local/share/tdfiglet/fonts}/*.tdf; do j=${i##*/}; echo ""; echo "╓───── "$j; echo "╙────────────────────────────────────── ─ ─ "; echo ""; tdfiglet -f "$j" "${j%.*}"; done'
@@ -70,14 +70,14 @@ alias ascii="toilet -t -f 3d"
 alias future="toilet -t -f future"
 alias rusto="toilet -t -f rusto"
 alias rustofat="toilet -t -f rustofat"
-
+#
 #silly
 alias xyzzy="echo nothing happens"
 alias up="cd ../"
 alias fuck='sudo $(fc -ln -1)'
 alias lol="base64 </dev/urandom | lolcat"
 alias matrix="cmatrix -b"
-
+#
 alias update="pacman-colors && yay -Syu --editmenu"
 alias k8s="kubectl"
 alias k9="kubectl"
@@ -93,32 +93,35 @@ alias nexus="jmtpfs ~/nexus"
 alias doc="sudo docker"
 alias zen="while :; do bonsai -l -b 2 -c oO0 -t 0.5; sleep 10; done"
 alias docstats="sudo docker ps -q | xargs  docker stats --no-stream"
-
+#
 #█▓▒░ Core aliases:
 alias wslstop='wsl.exe --shutdown'
 alias plasma='dbus-launch startplasma-x11'
-
+#
 #█▓▒░ General aliases:
 #alias ls='ls -al'
-
+#
 #█▓▒░ Configuration file aliases:
-alias zshconfig='code ~/.zshrc'
-alias zshaliases='code ~/.oh-my-zsh/custom/aliases.zsh'
-alias zshlinks='code ~/.oh-my-zsh/custom/shortcuts.zsh'
+alias dotconfig='cd dotfiles-deluxe && code .'
+alias zshaliases='code ~/.zsh/06-aliases.zsh'
+alias bashaliases='code ~/.bash_aliases'
 alias ohmyzsh='code ~/.oh-my-zsh'
-
+#
 #█▓▒░ Anaconda aliases:
 alias nopy='conda deactivate'
 alias fin='conda deactivate && conda activate finance'
+alias base='conda deactivate && conda activate base'
 alias aws='conda deactivate && conda activate aws'
 alias cs='conda deactivate && conda activate cs'
-
+alias envs='conda env list'
+alias condaclean='conda clean --all -y'
+#
 #█▓▒░ Other aliases:
 alias tasks='task list && task sync'
 alias texupdate='sudo tlmgr update --all'
 alias texworks='texworks -stylesheet  ~/.TeXworks/configuration/custom-stylesheet.css'
 alias gitlog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'"
-
+#
 #█▓▒░ Sort aliases:
 # color
 alias ls='ls --color=auto'
@@ -138,7 +141,7 @@ command -v colorls > /dev/null && alias ls='colorls --sd --gs' && alias tree='co
 command -v htop > /dev/null && alias top='htop'
 command -v ytop > /dev/null && alias top='ytop -p $([ "$COLOR_SCHEME" = "dark" ])'
 command -v bashtop > /dev/null && alias top='bashtop' # themes for light/dark color-schemes inside ~/.config/bashtop;
-
+#
 function docclean() {
 	sudo docker rm $(sudo docker ps -a -q)
 	sudo docker rmi $(sudo docker images -q)
