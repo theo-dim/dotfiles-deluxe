@@ -18,14 +18,14 @@ aurman -S keychain lolcat figlet zsh vim nvim git
 OR
 sudo apt update -y && sudo apt upgrade -y && sudo apt install keychain lolcat figlet zsh vim nvim git
 ```
-# tl;dr
+## Installation Instructions
 navigate to your home directory
 
 `cd ~`
 
 clone the repo:
 
-`git clone http://git.xero.nu/dotfiles.git`
+`git clone https://github.com/theo-dim/dotfiles-deluxe.git`
 
 enter the dotfiles directory
 
