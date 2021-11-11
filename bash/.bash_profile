@@ -114,3 +114,4 @@ PATH=$PATH:$HOME/bin				    # Local bin repo for custom packages and non-sudo op
 export PATH					    # Export command
 #                                                                                                                         #
 ###########################################################################################################################
+. "$HOME/.cargo/env"
