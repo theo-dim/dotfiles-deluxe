@@ -9,12 +9,12 @@
 #  ██ ░░██░██ ███  ░██░██  ░░██ ░███   ░░█████
 # ░░   ░░ ░░ ░░░   ░░ ░░    ░░  ░░░     ░░░░░
 #
-#  ▓▓▓▓▓▓▓▓▓▓
-# ░▓ author ▓ xero <x@xero.nu>
-# ░▓ code   ▓ http://code.xero.nu/dotfiles
-# ░▓ mirror ▓ http://git.io/.files
-# ░▓▓▓▓▓▓▓▓▓▓
-# ░░░░░░░░░░
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+# ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
+# ░▓   info: https://linktr.ee/theo_dmtr                                ▓
+# ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+#
 
 # display
 if [ $(xrandr | grep ' connected' | wc -l) -gt 1 ]; then

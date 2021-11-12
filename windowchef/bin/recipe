@@ -8,13 +8,13 @@
 # ░███   ░░██████░░█████ ░██░██░░░  ░░██████
 # ░░░     ░░░░░░  ░░░░░  ░░ ░██      ░░░░░░
 #                            ░░
-#  ▓▓▓▓▓▓▓▓▓▓
-# ░▓ author ▓ xero <x@xero.nu>
-# ░▓ code   ▓ http://code.xero.nu/dotfiles
-# ░▓ mirror ▓ http://git.io/.files
-# ░▓▓▓▓▓▓▓▓▓▓
-# ░░░░░░░░░░
-
+#
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+# ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
+# ░▓   info: https://linktr.ee/theo_dmtr                                ▓
+# ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+#
 usage() {
 	printf "${0##*/} <action> <direction>\n" >&2
 	exit 1

@@ -11,13 +11,12 @@
 #   ░ ░  ░    ░   ░ ░ ░  ░  ░      ░ ░  ░  ░░░ ░ ░ ░      ░   ░░       ░  ░  ░    ░         ░     ░░   ░
 #     ░             ░       ░        ░       ░            ░                  ░              ░  ░   ░
 #
-#  ▓▓▓▓▓▓▓▓▓▓
-# ░▓ author ▓ xero / https://0w.nz
-# ░▓ code   ▓ CC0 / posted to pastebin
-# ░▓ ver    ▓ v0.1.5
-# ░▓ info   ▓ in just learning py so gimmie a break
-# ░▓▓▓▓▓▓▓▓▓▓
-# ░░░░░░░░░░
+#
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+# ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
+# ░▓   info: https://linktr.ee/theo_dmtr                                ▓
+# ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
 import os
 import sys
