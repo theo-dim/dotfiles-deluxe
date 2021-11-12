@@ -25,6 +25,7 @@ alias se="sudo $EDITOR"
 alias g="git"
 alias u="node ~/src/unicoder/unicoder.js "
 alias upapt="sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove && sudo apt clean"
+alias pyquant="fin && python ~/Documents/python/PythonTerminal/terminal.py"
 #
 #lazy
 alias "cd.."="cd ../"
