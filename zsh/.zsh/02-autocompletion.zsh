@@ -15,8 +15,8 @@
 #
 #█▓▒░ autocompletion systems
 fpath=($HOME/.zsh/completion $fpath)
-autoload -Uz compinit
-compinit -u
+#autoload -Uz compinit
+#compinit -u
 source $HOME/.zsh/completion/_aws
 #autoload -U ~/.zsh/completion/*(:t)
 zstyle ':completion:*' auto-description 'specify: %d'
