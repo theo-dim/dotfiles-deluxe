@@ -1,13 +1,12 @@
 /*
- *                        .
- *       .__      .______/|    .____ ____.          .___ __.
- *  _____\  \ ___/_   \  _|____\____Y  __/____ _____\   Y  /__.
- * /  _   \  X    /    \       X    |  \      X  _   \  |  ___/---.
- * |  \      |   /     l____    >   |         |  \      |  \      |
- * | ::..  __l__/ ::.__|  / .: /:.__l__  ..:: | ::..  __l__  ..:: |
- * l______ /  \______/   /___ /| _/   \ ______l______ /   \ ______|
- *       \/                 \/ |/      \/           \/     \/   x0!
  *
+ * ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+ * ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
+ * ░▓   info: https://linktr.ee/theo_dmtr                                ▓
+ * ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+ * ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+ *
+ * Usage:
  * ansicat: cp437 decoder. display ansi art in modern utf8 shells
  * cc0 / kopimi: unixbros (dcat & x0)
  * install:

@@ -7,8 +7,14 @@
 #  ░██ ░██ ░██░██  ░██ ░██  ░██  ░██░██  ░██░██░░░░  ██░░░░██ ░██  ░██
 #  ███ ░██ ░██░░██████ ███  ░░██ ░██░██  ░██░░██████░░████████░░██████
 # ░░░  ░░  ░░  ░░░░░░ ░░░    ░░  ░░ ░░   ░░  ░░░░░░  ░░░░░░░░  ░░░░░░
-
-# display
+#
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+# ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
+# ░▓   info: https://linktr.ee/theo_dmtr                                ▓
+# ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+#
+# █▓▒░ display
 if [ "$(xrandr | grep -c ' connected')" -gt 1 ]; then
 	~/.screenlayout/triple_lab.sh &
 	#~/.screenlayout/multi.sh &
@@ -20,13 +26,13 @@ else
 	setxkbmap -option caps:escape &
 fi
 
-# keep monitors alive
+# █▓▒░ keep monitors alive
 #caffeine &
 
-# composting
+# █▓▒░ composting
 #picom
 
-# wallpaper
+# █▓▒░ wallpaper
 #nitrogen --restore &
 #~/bin/hashwall -f '#3b4252' -b '#2e3440' -s 12 &
 #~/bin/hashwall -f '#111111' -b '#222222' -s 12 &

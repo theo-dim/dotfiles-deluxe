@@ -7,17 +7,18 @@
 !  ██   ░░██░░██████░░██████  ░██  ░░████████░░██████ ███  ░░██  ██████ 
 ! ░░     ░░  ░░░░░░  ░░░░░░   ░░    ░░░░░░░░  ░░░░░░ ░░░    ░░  ░░░░░░  
 !
-!  ▓▓▓▓▓▓▓▓▓▓
-! ░▓ author ▓ xero <x@xero.nu>
-! ░▓ code   ▓ http://code.xero.nu/dotfiles
-! ░▓ mirror ▓ http://git.io/.files
-! ░▓▓▓▓▓▓▓▓▓▓
-! ░░░░░░░░░░
 !
-
+! ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+! ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
+! ░▓   info: https://linktr.ee/theo_dmtr                                ▓
+! ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+! ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+!
+!
+!
 ! █▓▒░ color scheme
 #include </home/x0/blaquemagick.Xcolors>
-
+!
 ! █▓▒░ fonts
 !URxvt*font: xft:GohuFont:size=8:antialias=true, \
 !URxvt*font: xft:gohufont:size=11:antialias=false

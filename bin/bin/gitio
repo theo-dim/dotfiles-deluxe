@@ -10,12 +10,13 @@
 #  ░░░░░  ░░    ░░  ░░ ░░  ░░░░░░
 #
 # create short / vanity github urls
-#         ▟▙
-# ▟▒░░░░░░░▜▙▜████████████████████████████████▛
-# ▜▒░░░░░░░▟▛▟▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▛
-#         ▜▛
-# xero / syntax-samurai <http://git.io/gitio.sh>
-
+#
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+# ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
+# ░▓   info: https://linktr.ee/theo_dmtr                                ▓
+# ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+#
 usage () {
     cat <<EOF
 

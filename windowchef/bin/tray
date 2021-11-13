@@ -8,15 +8,21 @@
 #   ░░██ ░███   ░░████████   ██    
 #    ░░  ░░░     ░░░░░░░░   ██     
 #                          ░░      
-
-# simple tray
+#
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+# ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
+# ░▓   info: https://linktr.ee/theo_dmtr                                ▓
+# ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+#
+# █▓▒░ simple tray
 stalonetray --kludges fix_window_pos --dockapp-mode simple --geometry 1x1+333 --background "#222222" &
 
-# sound mixer
+# █▓▒░ sound mixer
 pnmixer &
 
-# networking
+# █▓▒░ networking
 nm-applet &
 
-# bluetooth
+# █▓▒░ bluetooth
 #blueberry-tray &

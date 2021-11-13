@@ -12,10 +12,11 @@
 # ░▓   info: https://linktr.ee/theo_dmtr                                ▓
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-# general
+#
+# █▓▒░ general
 set selection-clipboard clipboard
-
-# colors
+#
+# █▓▒░ colors
 set recolor true
 set default-bg "#2E3440"
 set default-fg "#D8DEE9"
@@ -31,8 +32,8 @@ set highlight-color "#5E81AC"
 set highlight-active-color "#88C0D0"
 set notification-fg "#000000"
 set notification-bg "#5E81AC"
-
-# keybinds
+#
+# █▓▒░ keybinds
 map [normal] ZZ quit
 map [normal] ZQ quit
 

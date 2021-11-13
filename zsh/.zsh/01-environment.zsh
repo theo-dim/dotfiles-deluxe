@@ -15,22 +15,25 @@
 #
 #█▓▒░ timestamps
 #HIST_STAMPS=yyyy/mm/dd
-
+#
 #█▓▒░ paths
 export PATH=/usr/local/bin:$HOME/bin:$HOME/bin/build-wrapper-linux-x86:$HOME/.gem/ruby/2.5.0/bin:$HOME/.gem/ruby/2.6.0/bin/:$HOME/src/go/bin/:$HOME/.local/bin:$PATH
 export MANPAGER="nvim -c 'set ft=man' -"
 #export MANPATH=/usr/local/man:$MANPATH
-
+#
 ## LaTeX Executables:
 export PATH=/usr/local/texlive/2021/bin/x86_64-linux:$PATH
-
+#
 ## Export Conda Browser PATH:
 export BROWSER="/mnt/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
-
+#
+## LaTeX Executables:
+export PATH=$HOME/bin:$PATH
+#
 #█▓▒░ preferred text editor
 export EDITOR='vim'
 export VISUAL='code'
-
+#
 #█▓▒░ language
 export LC_COLLATE=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
@@ -42,23 +45,39 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export LESSCHARSET=utf-8
-
+#
 #█▓▒░ go lang
 export GOPATH=$HOME/src/go
-
+#
 #█▓▒░ java fixes
 export _JAVA_AWT_WM_NONREPARENTING=1
-
+#
 #█▓▒░ no mosh titles
 export MOSH_TITLE_NOPREFIX=1
-
+#
 #█▓▒░ Export Display for GUI's:
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0 #GWSL
 export PULSE_SERVER=tcp:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}') #GWSL
 export LIBGL_ALWAYS_INDIRECT=1 #GWSL
-
+#
 #█▓▒░ Standard > $ZSH/plugins/ and Custom > $ZSH_CUSTOM/plugins/
-plugins=(git)
-
-## Source $ZSH Extras:
+plugins=(git zsh-autosuggestions)
+#
+#█▓▒░ Source $ZSH Extras:
 source $ZSH/oh-my-zsh.sh
+#
+#█▓▒░ ANACONDA
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/theo/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/theo/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/theo/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/theo/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
