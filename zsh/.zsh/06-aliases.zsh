@@ -26,7 +26,7 @@ alias g="git"
 alias u="node ~/src/unicoder/unicoder.js "
 alias upapt="sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove && sudo apt clean"
 alias pyquant="fin && python ~/Projects/PythonTerminal/terminal.py"
-alias code="/c/Users/theon/AppData/Local/Programs/Microsoft\ VS\ Code/bin/code"
+alias code="/mnt/c/Users/theon/AppData/Local/Programs/Microsoft\ VS\ Code/bin/code"
 #
 #lazy
 alias "cd.."="cd ../"
