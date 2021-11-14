@@ -8,7 +8,7 @@
 # ░░░░░░ ░░░░░░  ░░   ░░ ░░░     ░░░░░
 #
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-# ░▓ author: Theo Dimitrasopoulos Novak | theonovak@mailfence.com     ▓
+# ░▓ author: Theo Novak Dimitrasopoulos | theonovak@mailfence.com     ▓
 # ░▓   info: https://linktr.ee/theo_dmtr                              ▓
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe              ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -20,14 +20,14 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-#█▓▒░ Path to oh-my-zsh configuration.
+# █▓▒░ Path to oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
 
-#█▓▒░ Configure ZSH Theme
+# █▓▒░ Configure ZSH Theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-#█▓▒░ load configs
+# █▓▒░ load configs
 for config (~/.zsh/*.zsh) source $config
 
-#█▓▒░ To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# █▓▒░ To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

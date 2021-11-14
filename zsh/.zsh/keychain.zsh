@@ -8,17 +8,17 @@
 #  ░░░░░░ ░░░░░░  ░░   ░░    ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░
 #
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-# ░▓ author: Theo Dimitrasopoulos Novak | theonovak@mailfence.com     ▓
+# ░▓ author: Theo Novak Dimitrasopoulos | theonovak@mailfence.com     ▓
 # ░▓   info: https://linktr.ee/theo_dmtr                              ▓
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe              ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
-#█▓▒░ ssh keys
+# █▓▒░ ssh keys
 export SSH_KEY_PATH="~/.ssh/id_rsa"
 #
-#█▓▒░ funtoo keychain
+# █▓▒░ funtoo keychain
 eval `keychain -q --agents ssh,gpg --eval ~/.ssh/id_rsa`
 #
-#█▓▒░ gpg agent
+# █▓▒░ gpg agent
 GPG_TTY=$(tty)
 export GPG_TTY

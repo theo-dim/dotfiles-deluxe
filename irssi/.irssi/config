@@ -12,7 +12,7 @@
 # ░▓   info: https://linktr.ee/theo_dmtr                                ▓
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-
+#
 utf8 = "on";
 
 servers = (

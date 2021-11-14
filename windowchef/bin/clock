@@ -14,7 +14,7 @@
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
-#█▓▒░ lemonbar clock
+# █▓▒░ lemonbar clock
 #f="-Gohu-GohuFont-Medium-R-Normal--11-80-100-100-C-60-ISO10646-1"
 f="Knack Nerd Font"
 fg='#ffd0d8e0'

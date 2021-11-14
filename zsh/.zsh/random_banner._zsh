@@ -8,15 +8,15 @@
 #  ░░░░░░ ░░░░░░  ░░   ░░    ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░
 #
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-# ░▓ author: Theo Dimitrasopoulos Novak | theonovak@mailfence.com     ▓
+# ░▓ author: Theo Novak Dimitrasopoulos | theonovak@mailfence.com     ▓
 # ░▓   info: https://linktr.ee/theo_dmtr                              ▓
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe              ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
-#█▓▒░ pick a random number
+# █▓▒░ pick a random number
 _RAND=`shuf -i1-15 -n1`
 
-#█▓▒░ display a random ascii banner
+# █▓▒░ display a random ascii banner
 case $_RAND in
 1)
 cat << X0

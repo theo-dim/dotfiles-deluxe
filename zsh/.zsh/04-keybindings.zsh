@@ -8,12 +8,12 @@
 #  ░░░░░░ ░░░░░░  ░░   ░░    ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░
 #
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-# ░▓ author: Theo Dimitrasopoulos Novak | theonovak@mailfence.com     ▓
+# ░▓ author: Theo Novak Dimitrasopoulos | theonovak@mailfence.com     ▓
 # ░▓   info: https://linktr.ee/theo_dmtr                              ▓
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe              ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
-#█▓▒░ keybindings
+# █▓▒░ keybindings
 typeset -A key
 
 key[Home]=${terminfo[khome]}

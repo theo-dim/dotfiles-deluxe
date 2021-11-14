@@ -15,7 +15,7 @@
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
-#█▓▒░ requires: imagemagick + hsetroot
+# █▓▒░ requires: imagemagick + hsetroot
 
 usage() {
 	echo "usage: `basename $0` [-bfsr]

@@ -8,12 +8,12 @@
 #  ░░░░░░ ░░░░░░  ░░   ░░    ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░
 #
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-# ░▓ author: Theo Dimitrasopoulos Novak | theonovak@mailfence.com     ▓
+# ░▓ author: Theo Novak Dimitrasopoulos | theonovak@mailfence.com     ▓
 # ░▓   info: https://linktr.ee/theo_dmtr                              ▓
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe              ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
-#█▓▒░ aliases
+# █▓▒░ aliases
 alias c="clear"
 alias g="grep -i"
 alias l="ls -hF --color=auto"
@@ -97,20 +97,20 @@ alias doc="sudo docker"
 alias zen="while :; do bonsai -l -b 2 -c oO0 -t 0.5; sleep 10; done"
 alias docstats="sudo docker ps -q | xargs  docker stats --no-stream"
 #
-#█▓▒░ Core aliases:
+# █▓▒░ Core aliases:
 alias wslstop='wsl.exe --shutdown'
 alias plasma='dbus-launch startplasma-x11'
 #
-#█▓▒░ General aliases:
+# █▓▒░ General aliases:
 #alias ls='ls -al'
 #
-#█▓▒░ Configuration file aliases:
+# █▓▒░ Configuration file aliases:
 alias dotconfig='cd dotfiles-deluxe && code .'
 alias zshaliases='code ~/.zsh/06-aliases.zsh'
 alias bashaliases='code ~/.bash_aliases'
 alias ohmyzsh='code ~/.oh-my-zsh'
 #
-#█▓▒░ Anaconda aliases:
+# █▓▒░ Anaconda aliases:
 alias nopy='conda deactivate'
 alias fin='conda deactivate && conda activate finance'
 alias base='conda deactivate && conda activate base'
@@ -119,13 +119,13 @@ alias cs='conda deactivate && conda activate cs'
 alias envs='conda env list'
 alias condaclean='conda clean --all -y'
 #
-#█▓▒░ Other aliases:
+# █▓▒░ Other aliases:
 alias tasks='task list && task sync'
 alias texupdate='sudo tlmgr update --all'
 alias texworks='texworks -stylesheet  ~/.TeXworks/configuration/custom-stylesheet.css'
 alias gitlog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'"
 #
-#█▓▒░ Sort aliases:
+# █▓▒░ Sort aliases:
 # color
 alias ls='ls --color=auto'
 alias diff='diff --color=auto'
@@ -149,7 +149,7 @@ function docclean() {
 	sudo docker rm $(sudo docker ps -a -q)
 	sudo docker rmi $(sudo docker images -q)
 }
-#█▓▒░ update mpd database
+# █▓▒░ update mpd database
 function genplaylist() {
 	cd ~/music
 	find . -name '*.mp3' -o -name '*.flac'|sed -e 's%^./%%g' > ~/.config/mpd/playlists/all.m3u
@@ -157,42 +157,42 @@ function genplaylist() {
 	mpc load all.m3u
 	mpc update
 }
-#█▓▒░ tmux
+# █▓▒░ tmux
 function t() {
 	X=$#
 	[[ $X -eq 0 ]] || X=X
 	tmux new-session -A -s $X
 }
-#█▓▒░ cli mail
+# █▓▒░ cli mail
 function email() {
 	echo $3 | mutt -s $2 $1
 }
-#█▓▒░ read stuff like manpages
+# █▓▒░ read stuff like manpages
 function md() {
 	pandoc -s -f markdown -t man "$*" | man -l -
 }
 function manwww() {
 	curl -skL "$*" | pandoc -s -f html -t man | man -l -
 }
-#█▓▒░ hide gross warnings
+# █▓▒░ hide gross warnings
 function pdf {
 	zathura "$*" &>/dev/null
 }
-#█▓▒░ nullpointer url shortener
+# █▓▒░ nullpointer url shortener
 function short() {
 	curl -F"shorten=$*" https://0x0.st
 }
-#█▓▒░ smaller scrots
+# █▓▒░ smaller scrots
 function scrot_area() {
 	read -r G < <(slop -f "%g")
 	import -window root -crop $G ~/$(date "+%Y-%m-%d_%H-%M-%S")_slop_scrot.png
 }
-#█▓▒░ record video
+# █▓▒░ record video
 function vid_area() {
 	read -r X Y W H G ID < <(slop -f "%x %y %w %h %g %i")
 	ffmpeg -f x11grab -s "$W"x"$H" -i :0.0+$X,$Y -f alsa -i pulse ~/$(date "+%Y-%m-%d_%H-%M-%S")_slop_vid.webm
 }
-#█▓▒░ hack time
+# █▓▒░ hack time
 function gitforge() {
 	[ ! -d .git ] && echo "not a git repo" && return
 	gitauthor=`git config user.name`
@@ -223,7 +223,7 @@ function gitforge() {
 	unset GIT_COMMITTER_NAME
 }
 
-#█▓▒░ lolcat banner
+# █▓▒░ lolcat banner
 lolbanner ()
 {
     echo

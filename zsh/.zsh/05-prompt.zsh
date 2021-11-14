@@ -8,7 +8,7 @@
 #  ░░░░░░ ░░░░░░  ░░   ░░    ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░
 #
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-# ░▓ author: Theo Dimitrasopoulos Novak | theonovak@mailfence.com     ▓
+# ░▓ author: Theo Novak Dimitrasopoulos | theonovak@mailfence.com     ▓
 # ░▓   info: https://linktr.ee/theo_dmtr                              ▓
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe              ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -36,11 +36,11 @@ COLOR_NORMAL="%F{white}"
 PROMPT_STYLE="classic"
 
 
-#█▓▒░ allow functions in the prompt
+# █▓▒░ allow functions in the prompt
 setopt PROMPT_SUBST
 autoload -Uz colors && colors
 
-#█▓▒░ colors for permissions
+# █▓▒░ colors for permissions
 if [[ "$EUID" -ne "0" ]]
 then  # if user is not root
 	USER_LEVEL="${COLOR_USER}"
@@ -48,7 +48,7 @@ else # root!
 	USER_LEVEL="${COLOR_ROOT}"
 fi
 
-#█▓▒░ git prompt
+# █▓▒░ git prompt
 GIT_PROMPT() {
   test=$(git rev-parse --is-inside-work-tree 2> /dev/null)
   if [ ! "$test" ]
@@ -96,17 +96,17 @@ GIT_PROMPT() {
   esac
 }
 case "$PROMPT_STYLE" in
-#█▓▒░ ascii
+# █▓▒░ ascii
 ascii)
 PROMPT='%{$bg[cyan]%} %F{black}%~ $(GIT_PROMPT)$reset_color 
 %f'
 ;;
-#█▓▒░ arrows
+# █▓▒░ arrows
 arrows)
 PROMPT='%{$bg[cyan]%}%F{black} %~ $(GIT_PROMPT)$reset_color 
 %f'
 ;;
-#█▓▒░ ninja
+# █▓▒░ ninja
 ninja)
 PROMPT='%F{white}
         ▟▙  ${USER_LEVEL}%~   %F{white}$(GIT_PROMPT) %F{white}
@@ -115,12 +115,12 @@ PROMPT='%F{white}
         ▜▛  
             %f'
 ;;
-#█▓▒░ dual line
+# █▓▒░ dual line
 dual)
 PROMPT='${USER_LEVEL}┏[${COLOR_NORMAL}%~${USER_LEVEL}]$(GIT_PROMPT)
 ${USER_LEVEL}┗━ ━ %f'
 ;;
-#█▓▒░ classic
+# █▓▒░ classic
 *)
 PROMPT='${USER_LEVEL}[${COLOR_NORMAL}%~${USER_LEVEL}]$(GIT_PROMPT)━━ ━ %f'
 ;;

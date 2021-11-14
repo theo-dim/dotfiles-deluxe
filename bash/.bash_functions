@@ -13,18 +13,18 @@
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
-#█▓▒░ DEFINITIONS                                                                                                                         #
+# █▓▒░ DEFINITIONS                                                                                                                         #
 #
-#█▓▒░ Ruby version manager:
+# █▓▒░ Ruby version manager:
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 #
-#█▓▒░ settitle:
+# █▓▒░ settitle:
 settitle ()
 {
 echo -ne "\e]2;$@\a\e]1;$@\a";
 }
 #
-#█▓▒░ cd_func (command: cd --):
+# █▓▒░ cd_func (command: cd --):
 cd_func ()
 {
    local x2 the_new_dir adir index

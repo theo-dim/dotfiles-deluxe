@@ -14,7 +14,7 @@
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
-#█▓▒░ lemonbar wgrp display
+# █▓▒░ lemonbar wgrp display
 #f="-Gohu-GohuFont-Medium-R-Normal--11-80-100-100-C-60-ISO10646-1"
 f='-*-Symbola-*-*-*-*-11-*-*-*-*-*-iso10646-*'
 fg='#ffd0d8e0'

@@ -13,19 +13,19 @@
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #                                                                                                                       #
-#█▓▒░ If not running interactively, don't do anything
+# █▓▒░ If not running interactively, don't do anything
 [[ "$-" != *i* ]] && return
 #                                                                                                                         #
-#█▓▒░ SOURCING
+# █▓▒░ SOURCING
 #                                                                                                                         #
-#█▓▒░ .bash_profile masterfile for login shells
+# █▓▒░ .bash_profile masterfile for login shells
 if [ -f "${HOME}/.bash_profile" ];
  then
 	 source "${HOME}/.bash_profile"
 	 #echo 'Login shell definitions loaded successfully'
  fi
 #                                                                                                                         #
-#█▓▒░ GENERAL
+# █▓▒░ GENERAL
 #                                                                                                                         #
 # Don't wait for job termination notification
 # set -o notify
@@ -51,7 +51,7 @@ if [ -f "${HOME}/.bash_profile" ];
 # Don't put duplicate lines in the history.
 # export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
 #                                                                                                                         #
-#█▓▒░ HISTORY
+# █▓▒░ HISTORY
 #                                                                                                                         #
 # Ignore some controlling instructions
 # HISTIGNORE is a colon-delimited list of patterns which should be excluded.
@@ -67,7 +67,7 @@ if [ -f "${HOME}/.bash_profile" ];
 # application.  To override the alias instruction use a \ before, ie
 # \rm will call the real rm not the alias.
 #                                                                                                                         #
-#█▓▒░ NETWORKING
+# █▓▒░ NETWORKING
 #                                                                                                                         #
 # Umask
 # /etc/profile sets 022, removing write perms to group + others.
@@ -76,19 +76,19 @@ if [ -f "${HOME}/.bash_profile" ];
 # Paranoid: neither group nor others have any perms:
 # umask 077
 #                                                                                                                         #
-#█▓▒░ AUTO-ADD
+# █▓▒░ AUTO-ADD
 #                                                                                                                         #
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 #
-#█▓▒░ DISPLAY
+# █▓▒░ DISPLAY
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0 #GWSL
 export PULSE_SERVER=tcp:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}') #GWSL
 export LIBGL_ALWAYS_INDIRECT=1 #GWSL
 export GDK_SCALE=1 #GWSL
 export QT_SCALE_FACTOR=1 #GWSL
 #
-#█▓▒░ ANACONDA
+# █▓▒░ ANACONDA
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/theo/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"

@@ -13,10 +13,10 @@
 # ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
 # ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
-#█▓▒░ Configure color scheme
+# █▓▒░ Configure color scheme
 COLOR_SCHEME=dark # choose between dark and light
 
-#█▓▒░ Sourcing
+# █▓▒░ Sourcing
 # .bashrc: interactive non-login shells masterfile
 # if [ -f "${HOME}/.bashrc" ];
 # then
@@ -37,12 +37,12 @@ COLOR_SCHEME=dark # choose between dark and light
 	  #echo 'Aliases loaded successfully'
   fi
 
-#█▓▒░ Miscellaneous
+# █▓▒░ Miscellaneous
 export VISUAL=atom
 export EDITOR=$VISUAL
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-#█▓▒░ Themes
+# █▓▒░ Themes
 # PS1=" \[\033[01;36m\]\w >\[\033[34m\]>\[\033[00m\] "
 #
 #                       ┌─────(theo_dim)─────(~)
@@ -61,7 +61,7 @@ export EDITOR=$VISUAL
 OS_ICON=
 PS1="\[\033[1;32m\]$OS_ICON \u: \[\033[1;37m\]\w \n\[\033[1;32m\]╰\[\033[1;37m\]"
 
-#█▓▒░ Anaconda
+# █▓▒░ Anaconda
 # Anaconda Environment Selection - Plese set CONDA_BASE_DIR to the directory containing the base installation of anaconda
 # export CONDA_BASE_DIR=/mnt/c/Users/theon/anaconda3
 #                                                                                                                         
@@ -100,7 +100,7 @@ export SHELLOPTS
 #	    cyg-conda info --envs
 #    }
 
-#█▓▒░ Paths
+# █▓▒░ Paths
 # PATH=$PATH:$CONDA_PREFIX			    # PATH - ALl of the anaconda/miniconda path entries appear first
 # PATH=$PATH:$CONDA_PREFIX/Library/mingw-w64/bin
 # PATH=$PATH:$CONDA_PREFIX/Library/usr/bin
