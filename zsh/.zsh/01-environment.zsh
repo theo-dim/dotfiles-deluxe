@@ -1,17 +1,17 @@
-#                 ██      
-#                ░██      
-#  ██████  ██████░██      
-# ░░░░██  ██░░░░ ░██████  
-#    ██  ░░█████ ░██░░░██ 
-#   ██    ░░░░░██░██  ░██ 
-#  ██████ ██████ ░██  ░██ 
-# ░░░░░░ ░░░░░░  ░░   ░░  
+#                 ██                                    ████ ██
+#                ░██                                   ░██░ ░░   █████
+#  ██████  ██████░██         █████   ██████  ███████  ██████ ██ ██░░░██
+# ░░░░██  ██░░░░ ░██████    ██░░░██ ██░░░░██░░██░░░██░░░██░ ░██░██  ░██
+#    ██  ░░█████ ░██░░░██  ░██  ░░ ░██   ░██ ░██  ░██  ░██  ░██░░██████
+#   ██    ░░░░░██░██  ░██  ░██   ██░██   ░██ ░██  ░██  ░██  ░██ ░░░░░██
+#  ██████ ██████ ░██  ░██  ░░█████ ░░██████  ███  ░██  ░██  ░██  █████
+#  ░░░░░░ ░░░░░░  ░░   ░░    ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░
 #
-# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-# ░▓ author: Theodosios Dimitrasopoulos Novak | theonovak@mailfence.com ▓
-# ░▓   info: https://linktr.ee/theo_dmtr                                ▓
-# ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe                ▓
-# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+# ░▓ author: Theo Dimitrasopoulos Novak | theonovak@mailfence.com     ▓
+# ░▓   info: https://linktr.ee/theo_dmtr                              ▓
+# ░▓   repo: https://github.com/theo-dim/dotfiles-deluxe              ▓
+# ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 #
 #█▓▒░ timestamps
 #HIST_STAMPS=yyyy/mm/dd
@@ -56,9 +56,9 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 export MOSH_TITLE_NOPREFIX=1
 #
 #█▓▒░ Export Display for GUI's:
-export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0 #GWSL
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0      #GWSL
 export PULSE_SERVER=tcp:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}') #GWSL
-export LIBGL_ALWAYS_INDIRECT=1 #GWSL
+export LIBGL_ALWAYS_INDIRECT=1                                                              #GWSL
 #
 #█▓▒░ Standard > $ZSH/plugins/ and Custom > $ZSH_CUSTOM/plugins/
 plugins=(git zsh-autosuggestions)
@@ -69,7 +69,7 @@ source $ZSH/oh-my-zsh.sh
 #█▓▒░ ANACONDA
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/theo/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/theo/anaconda3/bin/conda' 'shell.bash' 'hook' 2>/dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
