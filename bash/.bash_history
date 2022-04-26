@@ -102,3 +102,17 @@ chsh -s /bin/zsh
 clear
 clear
 zsh
+pwd
+ls -al
+cd
+ls -al
+clear
+ll
+zsh
+clear
+conda deactivate
+clear
+cat .zshrc 
+p10k configure
+source .zshrc 
+zsh

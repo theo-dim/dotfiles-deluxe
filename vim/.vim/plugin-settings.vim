@@ -17,7 +17,7 @@
 "colorscheme sourcerer
 
 " dark wizard colors http://git.io/blaquemagick.vim
-colorscheme blaquemagick
+"colorscheme blaquemagick
 
 " icy chill
 "colorscheme nord
